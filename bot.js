@@ -18,7 +18,7 @@ async function handleRequest(request) {
       if(message.text !== '/start'){
         if(message.chat.id == CHAT_ID && message.reply_to_message != undefined ){
           //Sending reply message from admin chat to bot
-          sendMessage('sendMessage', message.from.id, {text: message.text})
+          sendMessage('sendMessage', message.reply_to_message.forward_from.id, {text: message.text})
         }
         else{
           //Forwarding message to admin chat
