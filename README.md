@@ -19,7 +19,7 @@ I think this is the easiest way to get a Telegram bot for feedback or suggestion
 
 3. Click on "Create a Service" button to start creating a new service.
 
-4. Give your worker a name and code from bot.js code to the editor.
+4. Give your worker a name and copy code from bot.js to the editor.
 
 5. Click on "Save and Deploy" to deploy your worker.
 
